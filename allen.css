@@ -55,6 +55,25 @@ body{
     top:0;
     left: 400px;
 }
+.fifth{
+    position: absolute;
+    top:0;
+    left: 950px;
+}
+.brd2{
+    color: white !important;
+    font-size: 14px !important;
+    font-family:sans-serif;
+    font-weight:300 !important;
+    letter-spacing: 0.1 !important;
+}
+.brd2:hover{
+    color: yellow !important;
+}
+.brd2:focus{
+    background-color: rgba(0, 0, 0, 0) !important;
+
+}
 .allenhome{
     background-color:white;
     width: 100%;
@@ -72,9 +91,47 @@ body{
     background-color:white;
     border: none;
     float: left;
-    width: 110px;
     color:  rgb(8, 23, 43);
     font-size:14px;
+    width: 70px;
     font-family: 'Courier New', Courier, monospace;
-    padding-top: 40px;
+    padding-top: 36px;
+}
+.new{
+    width: 120px !important;
+}
+.sizes{
+    width: 140px !important;
+}
+.sale{
+    color: red !important;
+}
+.buttons button:hover{
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: 1px underline red;
+}
+.search{
+    border: none;
+    border-bottom: 1px solid rgb(8, 23, 43);
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    top:20px;
+    left: 1000px;
+    z-index:-1;
+}
+.search::placeholder {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.search:focus{
+    outline: none;
+}
+.s_logo{
+    position: absolute;
+    top:25px;
+    left: 1000px;
+    z-index: 1;
 }
