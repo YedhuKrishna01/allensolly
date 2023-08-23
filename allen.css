@@ -56,9 +56,19 @@ body{
     left: 400px;
 }
 .fifth{
+    margin-top: 20px;
     position: absolute;
-    top:0;
+    top:-8px;
     left: 950px;
+    border-right: 1px solid rgba(255, 255, 255, 0.363);
+    height: 27.5px;
+    padding-bottom: 10px;
+}
+.loclog{
+    position:absolute;
+    top:11px;
+    left: 930px;
+
 }
 .brd2{
     color: white !important;
