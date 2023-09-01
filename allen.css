@@ -1,180 +1,97 @@
 body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    height: 100vh;
-    width: 100vw;
+    background-color: white;
 }
-.topscr{
-    margin: 0;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.topscrl{
+    background-color:  rgb(11, 20, 92);
+    position: relative;
+}
+marquee{
+    background-color: rgb(11, 20, 92);
     color: white;
-    background-color: rgb(16, 45, 82);
-    font-size:13px;
+    margin-left: 5vw;
+    width: 90vw;
+    height: 4vh;
+    padding-top: 1vh;
+    box-sizing: border-box;
+}
+.topbar{
+    background-color: rgba(0, 0, 0, 0.816);
     width: 100vw;
-    height: 25px;
-    padding-top: 8px;
+    height: 8vh;
 }
-.brands{
-    background-color:rgba(0, 0, 0, 0.781);
-    height: 7vh;
-    width: 100vw;
-    position:relative;
+.buttons{
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-family: sans-serif;
+    width: 8vw;
+    height: 8vh;
+    font-size: 15px;
+    margin-left: 7vw;
 }
-.brd1{
-    color:white;
-    background-color: rgba(255, 255, 255, 0);
-    border:none;
-    height: 7vh;
-    width:100px;
-    padding-top:12px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:18px;
-    font-weight: 900;
+.buttons:hover{
+    background-color: black;
 }
-.brd1:focus{
+.buttons:focus{
     background-color: white;
     color: black;
 }
-.first{
-    position: absolute;
-    top:0;
-    left: 100px;
+.op{
+    margin-left: 0;
 }
-.sec{
-    position:absolute;
-    top:0;
-    left: 200px;
+.op2{
+    margin-left: 15vw;
+    font-size: 12px;
 }
-.third{
-    position: absolute;
-    top:0;
-    left: 300px;
+.op3{
+    margin-left: 0;
 }
-.fourth{
-    position: absolute;
-    top:0;
-    left: 400px;
+.op2:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: yellow;
 }
-.fifth{
-    margin-top: 20px;
-    position: absolute;
-    top:-8px;
-    left: 950px;
-    border-right: 1px solid rgba(255, 255, 255, 0.363);
-    height: 27.5px;
-    
+.op2:focus{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
 }
-.loclog{
-    position:absolute;
-    top:11px;
-    left: 930px;
-
-}
-.brd2{
-    color: white !important;
-    font-size: 14px !important;
-    font-family:sans-serif;
-    font-weight:300 !important;
-    letter-spacing: 0.1 !important;
-}
-.brd2:hover{
-    color: yellow !important;
-}
-.brd2:focus{
-    background-color: rgba(0, 0, 0, 0) !important;
-
-}
-.allenhome{
-    background-color:white;
+.maindiv{
+    height: 10vh;
     width: 100vw;
-    height:10vh;
+    box-sizing: border-box;
     position: sticky;
     top: 0;
+    background-color: white;
 }
-.allenlogo{
-    height: 60px;
-    width:200px;
-    margin-left: 100px;
+.maindiv img{
+    height: 7vh;
+    width: 7vw;
+    margin-top: 1vh;
+    margin-left: 7vw;
     float: left;
 }
-.buttons button{
-    background-color:white;
+.cat{
+    color: rgb(11, 20, 92);
+    background-color: rgba(0, 0, 0, 0);
     border: none;
-    float: left;
-    color:  rgb(8, 23, 43);
-    font-size:14px;
-    width: 70px;
-    font-family: 'Courier New', Courier, monospace;
-    padding-top: 30px;
+    font-family:sans-serif;
+    font-size: 13px;
+    padding-left: 10vw;
+    padding-top: 4vh;
 }
-.new{
-    width: 120px !important;
+.cat:hover{
+    text-decoration: underline red;
 }
-.sizes{
-    width: 140px !important;
+.women{
+    padding-left: 1vw;
 }
-.sale{
-    color: red !important;
-}
-.mendiv{
-    width:100vw;
-    height:0vh;
-    background-color: rgba(0, 0, 0, 0);
-    transform: translateX(-120%);
-    text-align: left;
-}
-.men:focus .mendiv{
-    transform: translateX(-340px);
-    background-color: white;
-    height: 65vh;
-}
-.womendiv{
-    width:100vw;
-    height: 0vh;
-    background-color: rgba(0, 0, 0, 0);
-    transform: translateX(-120%);
-    text-align: left;
-}
-.women:focus .womendiv{
-    transform: translateX(-410px);
-    background-color: white;
-    height: 65vh;
-}
-.items{
-    position: absolute;
-    top: 10px;
-    color: black;
-    left: 100px;
-    font-size: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 1.3px;
-    font-weight: 500;
-    line-height: 18px;
-    list-style-type: none;
-}
-.items2{
-    position: absolute;
-    top: 10px;
-    color: black;
-    left: 350px;
-    font-size: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 1.3px;
-    font-weight: 500;
-    line-height: 18px;
-    list-style-type: none;
-}
-.itemh{
-    color:  rgb(8, 23, 43);
-    font-size: 15px;
-    font-weight: bold;
-    letter-spacing: 0.8px;
-    line-height: 40px;
-}
-.buttons button:hover{
-    font-size: 15px;
-    font-weight: 600;
-    text-decoration: 1px underline red;
+.sales{
+    padding-left: 1vw;
+    color: red;
 }
 .search{
     border: none;
@@ -194,97 +111,260 @@ body{
 .search:focus{
     outline: none;
 }
-.s_logo{
+.subop{
     position: absolute;
-    top:20px;
-    left: 995px;
-    z-index: 1;
+    top: 10vh;
+    left: 0;
+    width: 100vw;
+    padding-left: 5vw;
+    box-sizing: border-box;
+    height: 75vh;
+    background-color: white;
+    display: none;
+}
+.men:hover~.menbar{
+    display: block !important;
+}
+.women:hover~.womenbar{
+    display: block !important;
+}
+.boy:hover~.boybar{
+    display: block !important;
+}
+.items{
+    list-style: none;
+    text-align: left;
+    color: black;
+    line-height: 4vh;
+    letter-spacing: 0.6px;
+}
+.itemh{
+    color: rgb(11, 20, 92);
+    font-size: 13px;
+    font-weight: 600;
+}
+.items2{
+    position: absolute;
+    top: 0vh;
+    left: 20vw;
 }
 .mainpic{
-    margin-top: 30px;
-}
-.heading{
     width: 100vw;
-    height:15vh;
-    color:  rgb(8, 23, 43);
-    font-size: 30px;
-    text-align: center;
-    padding-top:50px;
+    height: 60vh;
+}
+.salepic{
+    margin-left: 6vw;
+    margin-top: 4vh;
+}
+.commonpic{
+    margin-left: 2vw;
+    margin-top: 4vh;
+}
+.salehead{
+    color: rgb(11, 20, 92);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 11vw;
+    margin-top: 2vh;
 }
-.shirtpic{
-    margin-top: 10vh;
-    margin-left: 15vh;
+.commonhead{
+    color: rgb(11, 20, 92);
+    display: inline-block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 12vw;
+    margin-top: 2vh;
 }
-@media only screen and (max-width:700px){
-    .brands{
-        height: 100vh;
-        width: 15vw;
-        float: left;
-        z-index: 5;
-        margin-top: 6vh;
-        position: sticky;
-        top: 0;
-    }
-    .brd1{
-        width: 15vw;
-        height:8vh;
-        font-size: 15px;
-        padding-top: px;
-    }
-    .first{
-        top: 0;
-        left: 0;
-    }
-    .sec{
-        top: 8vh;
-        left: 0;
-    }
-    .third{
-        top: 16vh;
-        left: 0;
-    }
-    .fourth{
-        top: 24vh;
-        left: 0;
-    }
-    .brd2:focus{
-        background-color: white !important;
-        color: black !important;
-    }
-    .fifth{
-        top: 30vh;
-        left: 0;
-        height: 8vh;
-    }
-    .loclog{
-        display: none;
-    }
-    .mainpic{
-        width: 85vw;
-        height: 25vh;
-        margin-top: 53px;
-        float: left;
-    }
-    .allenlogo{
-        margin-top: 80vh;
-    }
-    .mendiv,.womendiv{
-        transform: translateX(-200%);
-    }
-    .allenhome{
-        height: 3vh;
-        width: 100vw;
-        position: absolute;
-        top: 2.5vh;
-        left: 0;
-    }
-    .buttons{
-        position: absolute;
-        left: 0vw;
-    }
-    .heading{
-        margin-top: 28vh;
-    }
+.app_ad{
+    background-color: rgb(226, 198, 147);
+    width: 100vw;
+    height: 30vh;
+}
+h1{
+    color: rgb(11, 20, 92);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30vw;
+    padding-left: 10vw;
+    padding-top: 5vh;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding-left: 10vw;
+}
+.appstore{
+    margin-left: 10vw;
+}
+.gplay{
+    margin-left: 1vw;
+}
+.qrcode{
+    position: absolute;
+    top: 118vh;
+    left: 40vw;
+    transform: scale(0.6);
+}
+.aslogo{
+    position: absolute;
+    top: 125vh;
+    left: 60vw;
+}
+h6{
+    position: absolute;
+    top: 143vh;
+    left: 42.5vw;
+}
+.divider{
+    width: 80vw;
+    margin-top: 5vh;
+    margin-left: 10vw;
+}
+.collect{
+    color: rgb(11, 20, 92);
+    font-size: 30px;
+    width: 100vw;
+    margin-top: 5vh;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.collect2{
+    width: 100vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 3vh;
+}
+.act{
+    height: 70vh;
+}
+.c2:focus{
+    text-decoration: 1px underline rgb(226, 56, 56);
+    text-underline-offset: 5px;
+}
+.statement{
+    margin-left: 43vw;
+    margin-top: 5vh;
+    color: rgb(11, 20, 92);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.6;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.wave{
+    color: rgb(11, 20, 92);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.6;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 185vh;
+    left: 60vw;
+}
+.styletab{
+    margin-top: -5vh;
+    display: none;
+}
+.statement:focus~.styletab{
+    display: block !important;
+}
+.dop{
+    margin-left: 3vw;
+    transform: scale(0.8);
+}
+.dop2{
+    margin-left:-5vw;
+    transform: scale(0.8);
+}
+.styletab2{
+    margin-top: -5vh;
+    display: none;
+}
+.wave:focus~.styletab2{
+    display: block !important;
+}
+.text{
+    margin-top: 5vh;
+    color: rgb(11, 20, 92);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    border: none;
+}
+.text1{
+    position: absolute;
+    top: 238vh;
+    left: 13vw;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.text2{
+    position: absolute;
+    top: 238vh;
+    left: 33vw;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.text3{
+    position: absolute;
+    top: 238vh;
+    left: 52vw;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.text4{
+    position: absolute;
+    top: 238vh;
+    left: 76vw;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.text5{
+    position: absolute;
+    top: 238vh;
+    left: 13.5vw;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.text6{
+    position: absolute;
+    top: 238vh;
+    left: 36vw;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.text7{
+    position: absolute;
+    top: 238vh;
+    left: 56vw;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.text8{
+    position: absolute;
+    top: 238vh;
+    left: 77vw;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.popular{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(11, 20, 92);
 }
